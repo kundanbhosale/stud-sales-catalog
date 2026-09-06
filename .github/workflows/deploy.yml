@@ -4,7 +4,6 @@ on:
   push:
     branches: [ master ]
 
-# Grant the GITHUB_TOKEN read/write access to commit and push changes
 permissions:
   contents: write
 
@@ -18,7 +17,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
       - name: Install Dependencies
