@@ -2,7 +2,7 @@ name: Deploy Svelte to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 # Grant the GITHUB_TOKEN read/write access to commit and push changes
 permissions:
