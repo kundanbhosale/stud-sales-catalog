@@ -1,0 +1,1 @@
+var e={url:`https://livestock-sales-software.kbstack.com`,supportEmail:`hello@kbstack.com`};export{e as t};
